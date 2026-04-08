@@ -4,7 +4,10 @@ import { PhysicsCanvas } from './components/PhysicsCanvas';
 import { TodoItem } from './components/TodoItem';
 import { Plus } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/todos';
+// 개발 환경(로컬)에서는 localhost:5000을, Vercel 배포 환경(production)에서는 Vercel 프록시 경로를 사용합니다.
+const API_URL = import.meta.env.PROD 
+  ? '/_/backend/api/todos' 
+  : 'http://localhost:5000/api/todos';
 
 function App() {
   const [todos, setTodos] = useState([]);
