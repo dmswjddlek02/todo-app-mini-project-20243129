@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #101010;
+  
+  --color-theme-blue: #638CFF;
+  --color-theme-yellow: #FFDE6B;
+  --color-theme-red: #FF4C4C;
+  --color-theme-mint: #8CE6D6;
+
+  /* 카드 배경색 (살짝 연하게 한 버전 - 흰색을 조금 섞어 명도를 높임) */
+  --color-card-blue: #8faefc;
+  --color-card-yellow: #ffe48a;
+  --color-card-red: #ff7575;
+  --color-card-mint: #aef0e4;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: #FFFFFF;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Chrome, Safari, Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* IE, Edge, Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

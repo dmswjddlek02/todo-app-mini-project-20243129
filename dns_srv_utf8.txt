@@ -1,0 +1,18 @@
+﻿서버:    bns2.hananet.net
+Address:  219.250.36.130
+
+_mongodb._tcp.cluster0.rqk2s3o.mongodb.net	SRV service location:
+	  priority       = 0
+	  weight         = 0
+	  port           = 27017
+	  svr hostname   = ac-3rmc3mj-shard-00-02.rqk2s3o.mongodb.net
+_mongodb._tcp.cluster0.rqk2s3o.mongodb.net	SRV service location:
+	  priority       = 0
+	  weight         = 0
+	  port           = 27017
+	  svr hostname   = ac-3rmc3mj-shard-00-01.rqk2s3o.mongodb.net
+_mongodb._tcp.cluster0.rqk2s3o.mongodb.net	SRV service location:
+	  priority       = 0
+	  weight         = 0
+	  port           = 27017
+	  svr hostname   = ac-3rmc3mj-shard-00-00.rqk2s3o.mongodb.net

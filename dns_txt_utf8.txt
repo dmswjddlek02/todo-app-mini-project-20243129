@@ -1,0 +1,6 @@
+﻿서버:    bns2.hananet.net
+Address:  219.250.36.130
+
+cluster0.rqk2s3o.mongodb.net	text =
+
+	"authSource=admin&replicaSet=atlas-nmspa1-shard-0"
